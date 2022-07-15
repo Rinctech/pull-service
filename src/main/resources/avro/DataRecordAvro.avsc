@@ -1,0 +1,60 @@
+{
+        "name": "DataRecordAvro",
+        "namespace": "testRecord",
+        "type": "record",
+        "fields": [
+                {
+                        "name": "MeterSerialnumber",
+                        "type": "string"
+                },
+                {
+                        "name": "ip",
+                        "type": "string"
+                },
+                {
+                        "name": "Port",
+                        "type": "long"
+                },
+                {
+                        "name": "MeterFlag",
+                        "type": "string"
+                },
+                {
+                        "name": "Obis",
+                        "type": "string"
+                },
+                {
+                        "name": "Ic",
+                        "type": "string"
+                },
+                {
+                        "name": "Attributes",
+                        "type": "string"
+                },
+                {
+                        "name": "payload",
+                        "type": "string"
+                },
+                {
+                        "name": "EKEY",
+                        "type": "string"
+                },
+                {
+                        "name": "AKEY",
+                        "type": "string"
+                },
+                {
+                        "name": "Security_Id",
+                        "type": "string"
+                },
+                {
+                        "name": "msg_type",
+                        "type": "string"
+                },
+                {
+                        "name": "RequestID",
+                        "type": "string"
+                }
+        ]
+
+}
